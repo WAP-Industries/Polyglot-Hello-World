@@ -8,4 +8,3 @@ This program runs in the following languages:
 7. C++
 8. Python 2 
 9. Python 3
-10. Whitespace
