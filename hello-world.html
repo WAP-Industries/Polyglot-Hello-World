@@ -1,8 +1,9 @@
 #define a \
-""" "; cls; echo("Hello world!"); return; #"""
-#define b & cls && @echo off && echo Hello world! && goto :eof
+""" "; cls; echo "Hello World!"; return; #""" \
+""" "; tput reset; echo "Hello World!"; exit; #"""
+#define b & cls && @echo off && echo Hello World! && goto :eof
 #define c /* >++++++++[<+++++++++>-]<.>++++[<+++++++>-]<+.+++++++..+++.>>++++++[<+++++++>-]<++.------------.>++++++[<+++++++++>-]<+.<.+++.------.--------.>>>++++[<++++++++>-]<+.++++++++[>++++++<-]>[.[-]]*/
-#define d /*<script>document.body.remove();console.log("Hello world!")</script>*/
+#define d /*<script>document.body.remove();console.log("Hello World!")</script>*/
 #include <stdio.h>
 #define print(s) int main(){printf(s);}
-print("Hello world!")
+print("Hello World!")
